@@ -1,8 +1,8 @@
 # Importing Packages
 import pandas as pd
 import numpy as np
-import os
 from sentence_transformers import SentenceTransformer
+import os
 
 # os.system('cls')
 

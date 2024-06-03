@@ -2,13 +2,15 @@ from flask import Flask, request
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+CORS(app, support_credentials=True)
 
 def setup_app(app):
     global model, sentences, df
     model = SentenceTransformer('firqaaa/indo-sentence-bert-base')
-    df = pd.read_csv('./data/intents.csv', names=["pattern", 'tag', 'response'], dtype=str)
+    df = pd.read_csv('./data/intents-2.csv', names=["pattern", 'tag', 'response'], dtype=str)
     sentences = []
     for i in range(len(df["pattern"])):
         sentences.append(df["pattern"].values[i])

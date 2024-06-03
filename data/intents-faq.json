@@ -26,7 +26,7 @@
         },
         {
             "tag": "snbt_jurusan",
-            "patterns": ["Apakah jalur seleksi SNBT bisa memilih semua jurusan yang ada di UIN Sunan Gunung Djati Bandung?", "Apa saja jurusan yang tersedia untuk jalur masuk SNBT di UIN Bandung", "SNBT Jurusan", "Ada jurusan apa saja lewat SNBT?"],
+            "patterns": ["Untuk jurusan yang bisa dipilih pada Seleksi Masuk SNBP terbatas pada beberapa jurusan saja. Untuk ketersediaan jurusan yang bisa dipilih di UIN Sunan Gunung Djati Bandung pada SNBP bisa diakses di halaman berikut ini: https://sidata-ptn-snpmb.bppp.kemdikbud.go.id/ptn_sn.php?ptn=336.],
             "responses": ["Untuk jurusan yang bisa dipilih pada Seleksi Masuk SNBT terbatas pada beberapa jurusan saja. Untuk ketersediaan jurusan yang bisa dipilih di UIN Sunan Gunung Djati Bandung pada SNBT bisa diakses di halaman web berikut ini: https://sidata-ptn-snpmb.bppp.kemdikbud.go.id/ptn_sb.php?ptn=336."],
             "context_set": "string"
         },
